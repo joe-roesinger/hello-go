@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
-	message := greetings.Hello("Steve")
+	message, _ := greetings.Hello("Steve")
+
 	fmt.Println(message)
 }
